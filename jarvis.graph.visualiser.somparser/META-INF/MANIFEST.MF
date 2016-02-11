@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Somparser
+Bundle-SymbolicName: jarvis.graph.visualiser.somparser
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.sun.xml.xsom,
+ com.sun.xml.xsom.parser

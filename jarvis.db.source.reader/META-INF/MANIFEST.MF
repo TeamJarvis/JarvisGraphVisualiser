@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JarvisDBRead
+Bundle-SymbolicName: jarvis.db.source.reader;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: jarvisdbread.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ JarvisGraphVisualiser;bundle-version="1.0.0",
+ org.eclipse.ui;bundle-version="3.7.0",
+ jarvis.db.connector;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: jarvisdbread,
+ jarvisdbread.dbutil,
+ jarvisdbread.wizard
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="jarvis.graph.visualiser.source">
+      <source
+            class="jarvisgraphvisualiser.fbplugin.FBFriendship"
+            id="JarvisGraphVisualiser.fbplugin">
+      </source>
+   </extension>
+
+</plugin>
